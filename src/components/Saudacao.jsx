@@ -21,7 +21,6 @@ export default class Saudacao extends Component {
     }
     setTipo(e){
         this.setState({tipo:e.target.value});
-        // console.log(e.target.value)
     }
     setNome(e){
         this.setState({nome:e.target.value});
